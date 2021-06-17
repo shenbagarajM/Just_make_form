@@ -1,2 +1,2 @@
-# Just_make_form
-This page is testing for javascript
+Just make a file 
+To testing the Javascript
