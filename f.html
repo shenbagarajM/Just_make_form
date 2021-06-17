@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form to fill</title>
+	<style type="text/css">
+		body{
+			background-color: skyblue;
+		}
+		.h{
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+<div class="h">
+<h2>Fill the form for your information</h2>
+<br>
+<form>
+<label >First name:</label>
+<input id="fn" type="text" name="fname" placeholder="firstname">
+<br>
+<br>
+<label>Last name</label>
+<input id="fn" type="text" name="lname" placeholder="lastname">
+<br><br>
+<label>DOB</label>
+<input type="date" name="date">
+<br><br>
+<label>Create password</label>
+<input type="password" name="password" placeholder="Create password">
+<br>
+<br>
+<label>Conform password</label>
+<input type="password" name="Conform password" placeholder="Conform password">
+<br>
+<br>
+<button onclick="buttonClick()">Submit</button>
+</div>
+
+<script type="text/javascript">
+  function buttonClick()
+  {
+    var x = document.getElementById("fn").value;
+    alert("Thank you "+ x + " for filling this form");
+  }	
+</script>
+</form>
+</body>
+</html>
